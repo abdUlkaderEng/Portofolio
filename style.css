@@ -26,7 +26,7 @@ margin: 0.5rem 0.5rem;
     width: 5rem;
     height: 5rem;
     border-radius: 2.5rem;
-    box-shadow: 0 0 20px #444;    
+    box-shadow: 0 0 6px #fff , 0 0 20px rgb(0, 102, 94);    
 }
 .welcomming{
     display: flex;
@@ -133,7 +133,6 @@ footer{
 #thanks_word{
     font-size: 3rem;
     margin-bottom: -0.5rem;
-    
 }
 
 #contact_link{
@@ -154,9 +153,7 @@ footer{
     box-shadow: 0 0 30px 15px rgb(0 ,66 ,61)  ;
     
     }
-#contact_link:hover #thanks_word{
-    color: #000;
-}
+
 
     
 
@@ -189,7 +186,8 @@ footer{
         align-items: center;
     }
     #personal_information >h3{
-        margin-top: -0.5rem;
+        display: inline;
+        border-bottom: #ccc 1px solid;
         margin-left: 1rem;
         text-shadow: 0 0 10px #999;
         
@@ -204,7 +202,7 @@ footer{
     #projects{
         width: 90vw;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
     .images{
@@ -221,25 +219,37 @@ footer{
         height: 50vh;
     }
     .card{
-        
+        z-index: 0;
+        text-align: center;
         border-radius: 10px;
         width: 45%;
-        height: 85%;
+        height: 100%;
+        margin-left: 5%;
         overflow: hidden ;
+        transition: box-shadow 0.5s , height 0.5s ease-out;
          
     }
+    .card >p{
+        margin-top: 2rem;
+    }
     .images{
-        box-shadow: 0 0 0;
-        width: 90%;
-        height: 90%;
-        transition: all 1s;
+        box-shadow:none;
+        width: 80%;
+        height: 70%;
+        margin-left: 10%;
+        transition: all 0.75s  ;
     }
     .card:hover .images{
         box-shadow: 0 0 10px  #ddd;
-        height: 45%;
-        width: 45%;    
-        margin-left: 25%;
-        filter: blur(0.75px) ;
+        height: 25%;
+        width: 30%;    
+        margin-left: 33.5%;
+        filter: blur(0.5px);
+    }
+    .card:hover{
+        z-index: 1;
+        box-shadow:  0 -10px 20px 5px rgb(0, 130, 120) , inset 0 -10px 15px  rgb(0 ,66 ,61);
+        height: 120%    
     }
     .card:hover .image_secondProject{
         box-shadow: 0 0 10px 0 orange;
