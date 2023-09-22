@@ -133,6 +133,9 @@ footer{
     font-size: 2rem;
     text-align: center;
     font-family: 'Patrick Hand', cursive;
+    border-radius: 5px;
+    border-top: 3px solid rgba(0, 168, 154, 0.25) ;
+
 }
 #thanks_word{
     font-size: 3rem;
