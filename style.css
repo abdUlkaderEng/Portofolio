@@ -124,7 +124,7 @@ footer{
     justify-content: center;
     height: 100vh;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 25%;
 }
 .thanking{
     display: flex;
@@ -135,7 +135,7 @@ footer{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     border-radius: 5px;
-    border-top: 3px solid rgba(0, 168, 154, 0.25) ;
+    border-top: 3px solid #fff ;
 
 }
 #thanks_word{
