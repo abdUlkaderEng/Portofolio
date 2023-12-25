@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap');
-
 ::-webkit-scrollbar{
     background-color: rgb(0, 66, 61) ;
     width: 7.5px;
@@ -154,11 +153,12 @@ footer{
     background: rgb(238,238,238);
     box-shadow: 0 0 10px 5px #999;
     
+    
    }
 #contact_link:hover{
     color: rgb(0 ,66 ,61);
     box-shadow: 0 0 15px 15px rgb(0 ,66 ,61)  ;
-    
+    text-shadow:  0 0 20px rgba(0, 172, 158, 0.521);
     }
 
 
